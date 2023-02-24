@@ -32,11 +32,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* change header class to nav */
 .header nav ul {
     list-style-type: none;
 }
-
+/* change header class to nav */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -70,12 +70,14 @@ p {
     margin-left: 25px;
 }
 
+/* do not touch/ will miss up layout */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* do not touch/ will miss up layout */
 .benefits {
     margin-right: 20px;
     padding: 20px;
