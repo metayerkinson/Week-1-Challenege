@@ -86,13 +86,14 @@ main {
 }
 
 /* combine declaration,selectors,properties and values */
-.benefit-lead, .benefit-brand, h3, .benefit-cost {
+.benefit-lead, .benefit-brand,  .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;margin-bottom: 10px;
-    text-align: center; 
-    
+    color: #ffffff;  
 }
-
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3{
+    margin-bottom: 10px;
+    text-align: center; 
+}
 
 /* combine declaration,selectors,properties and values */
 .benefit-lead img,.benefit-brand img,
